@@ -24,13 +24,9 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
     }
-    TextView changetext = (TextView) findViewById(R.id.text);
-    TextView changecolor = (TextView) findViewById(R.id.text);
-    public void Button1changetext(View view) {
-        changetext.setText("Android Studio");
-    }
 
-    public void Button2changecolor(View view) {
-        changecolor.setTextColor(Color.BLUE);
+    public void Button1changetext(View view) {
+        TextView changetext = (TextView) findViewById(R.id.text);
+        changetext.setText("Android Studio");
     }
 }
